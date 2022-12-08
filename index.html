@@ -4,9 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>CV</title>
 </head>
-<body>
-    <h1>Valery Mamrouski</h1>
+<body class="body-page">
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about-myself" class="nav-link">About myself</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">My projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container-left">
+            <img src="assets/myPhoto.jpg" alt="My photo" width="100%">
+            <section class="contacts" id="contacts">
+                <h2>Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item">
+                        <a href="tel:+375336226908">+375336226908</a>
+                    </li>
+                    <li class="contacts-item">
+                        <a href="mailto:valeramamrovsky@gmail.com">valeramamrovsky@gmail.com</a>
+                    </li>
+                    <li class="contacts-item">
+                        <a href="https://github.com/Val331">Github</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <ul class="education-list">
+                    <li class="education-item">Belarusian national technical university</li>
+                    <li class="education-item">Stepik</li>
+                    <li class="education-item">RS Schools Course «JavaScript/Front-end»</li>
+                </ul>
+            </section>
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">Java Script</li>
+                    <li class="skills-item">HTML5</li>
+                    <li class="skills-item">CSS3</li>
+                    <li class="skills-item">Git</li>
+                </ul>
+            </section>
+        </div>
+        <div class="container-right">
+            <section class="page-title">
+                <h1>Valery Mamrouski</h1>
+                <p>Front-End developer</p>
+            </section>
+            <section class="about-myself" id="about-myself">
+                <h2>About myself</h2>
+                <p>I work as an energy engineer. My specialty is thermal power stations. 
+                    I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
+                    I am reliable and dependable. I want to learn Front-End Development in School!
+                </p>
+            </section>
+            <section class="code" id="code">
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+                        function nthFibo(n) {
+                            arrFibo = [0, 1];
+                            for (let i = 0; i &lt; n - 2; i++) {
+                                arrFibo.push(arrFibo[i] + arrFibo[i + 1]);
+                            }
+                            return arrFibo[n - 1];
+                        }
+                    </code>
+                </pre>
+            </section>
+            <section class="languages" id="languages">
+                <h2>Languages</h2>
+                <ul class="languages-list">
+                    <li class="languages-item">English</li>
+                    <li class="languages-item">Russian</li>
+                    <li class="languages-item">Belorussian</li>
+                </ul>
+            </section>
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <ul class="projects-list">
+                    <li class="projects-item">CV</li>
+                    <li class="projects-item">in progress...</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer"></footer>
 </body>
 </html>

@@ -1,3 +1,63 @@
-h1 {
-    font-weight: bold;
+* {
+    box-sizing: border-box;
+}
+
+.body-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(168, 168, 168);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 20px;
+    color: rgb(213, 250, 3);
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+
+.nav-link:hover {
+    color: brown;
+}
+
+
+
+.header {
+    background-color: rgb(66, 66, 66);
+    border: 1px solid red;
+}
+
+.main {
+    display: flex;
+    border: 1px solid red;
+}
+
+.container-left {
+    width: 30%;
+    background-color: rgb(46, 46, 46);
+}
+
+.container-right {
+    width: 70%;
+    background-color: rgb(236, 243, 243);
+}
+
+.contacts-item {
+    display: flex;
+}
+
+.footer {
+    border: 1px solid red;
 }
