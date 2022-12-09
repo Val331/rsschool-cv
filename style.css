@@ -7,9 +7,12 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    margin: 0;
+    margin: 0 auto 0;
     padding: 0;
-    background-color: rgb(168, 168, 168);
+    width: 840px;
+    background-color: rgb(212, 212, 212);
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
 }
 
 .nav-list {
@@ -23,25 +26,29 @@
 .nav-link {
     padding: 0 20px;
     line-height: 20px;
-    color: rgb(213, 250, 3);
+    color: rgb(0, 194, 219);
     text-decoration: none;
     transition: color 0.3s linear;
 }
 
 .nav-link:hover {
-    color: brown;
+    color: rgb(253, 252, 255);
 }
 
 
 
 .header {
-    background-color: rgb(66, 66, 66);
-    border: 1px solid red;
+    background-color: rgb(46, 46, 46);
 }
 
 .main {
     display: flex;
-    border: 1px solid red;
+}
+
+.main h2 {
+    margin-bottom: 5px;
+    margin-left: 15px;
+    color: rgb(0, 194, 219);
 }
 
 .container-left {
@@ -51,13 +58,78 @@
 
 .container-right {
     width: 70%;
-    background-color: rgb(236, 243, 243);
+    background: url(assets/background.webp) no-repeat;
+    background-size: cover;
+}
+
+.my-photo {
+    border-radius: 10px;
+}
+
+.hiden {
+    display: none;
+}
+
+.contacts-list {
+    padding: 10px;
 }
 
 .contacts-item {
     display: flex;
+    background-color: rgba(223, 223, 223, 0.35);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.contacts-item a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s color;
+}
+
+.contacts-item a:hover {
+    color: rgb(0, 194, 219);
+}
+
+.education {
+    background-color: rgba(223, 223, 223, 0.35);
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.skills {
+    background-color: rgba(223, 223, 223, 0.35);
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
 }
 
 .footer {
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(46, 46, 46);
+}
+
+.logo-rs {
+    transition: 1s;
+}
+
+.logo-rs:hover {
+    z-index: 10;
+    transform: scale(1.2);
+}
+
+.logo-github {
+    transition: 1s;
+}
+
+.logo-github:hover {
+    z-index: 10;
+    transform: scale(1.2);
 }
