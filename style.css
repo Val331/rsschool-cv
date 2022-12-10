@@ -20,6 +20,7 @@
     justify-content: center;
     align-items: center;
     list-style: none;
+    padding-left: 0;
 
 }
 
@@ -43,23 +44,74 @@
 
 .main {
     display: flex;
+    background-color: rgb(46, 46, 46);
 }
 
 .main h2 {
-    margin-bottom: 5px;
-    margin-left: 15px;
+    margin: 0;
     color: rgb(0, 194, 219);
 }
 
 .container-left {
     width: 30%;
-    background-color: rgb(46, 46, 46);
+}
+
+.my-photo img {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
 }
 
 .container-right {
     width: 70%;
-    background: url(assets/background.webp) no-repeat;
-    background-size: cover;
+    background-color: rgba(223, 223, 223, 0.35);
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+}
+
+.page-title {
+    margin-left: 15px;
+}
+
+.page-title h1 {
+    color: rgb(0, 194, 219);
+    margin-bottom: 0;
+}
+
+.page-title p {
+    margin-top: 5px;
+}
+
+.about-myself {
+    margin-left: 15px;
+}
+
+.about-myself p {
+    margin-top: 5px;
+}
+
+.code {
+    margin-left: 15px;
+}
+
+.code pre {
+    margin: 5px 0 0 0;
+}
+
+.languages {
+    margin-left: 15px;
+}
+
+.languages-list {
+    margin-top: 5px;
+}
+
+.projects {
+    margin-left: 15px;
+}
+
+.projects-list {
+    margin-top: 5px;
 }
 
 .my-photo {
