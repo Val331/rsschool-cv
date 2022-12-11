@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.body-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0 auto 0;
+    padding: 0;
+    width: 840px;
+    background-color: rgb(212, 212, 212);
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    font-family: Tahoma, sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 20px;
+    color: rgb(0, 194, 219);
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+
+.nav-link:hover {
+    color: rgb(253, 252, 255);
+}
+
+
+
+.header {
+    background-color: rgb(46, 46, 46);
+}
+
+.main {
+    display: flex;
+    background-color: rgb(46, 46, 46);
+}
+
+.main h2 {
+    margin: 0;
+    color: rgb(0, 194, 219);
+}
+
+.container-left {
+    width: 35%;
+}
+
+.my-photo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.container-right {
+    width: 65%;
+    background-color: rgba(223, 223, 223, 0.35);
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+}
+
+.page-title {
+    margin-left: 15px;
+}
+
+.page-title h1 {
+    color: rgb(0, 194, 219);
+    margin-bottom: 0;
+}
+
+.page-title p {
+    margin-top: 5px;
+}
+
+.about-myself {
+    margin-left: 15px;
+}
+
+.about-myself p {
+    margin-top: 5px;
+}
+
+.code {
+    margin-left: 15px;
+}
+
+.code pre {
+    margin: 5px auto 0;
+}
+
+.text-code {
+    position: relative;
+    right: 100px;
+}
+
+.languages {
+    margin-left: 15px;
+}
+
+.languages-list {
+    margin-top: 5px;
+}
+
+.projects {
+    margin-left: 15px;
+}
+
+.projects-list {
+    margin-top: 5px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s linear;
+}
+
+.project-link:hover {
+    color: rgb(0, 194, 219);
+}
+
+.my-photo {
+    border-radius: 10px;
+}
+
+.hiden {
+    display: none;
+}
+
+.contacts-list {
+    padding: 10px;
+}
+
+.contacts-item {
+    display: flex;
+    background-color: rgba(223, 223, 223, 0.35);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.contacts-item a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s color;
+}
+
+.contacts-item a:hover {
+    color: rgb(0, 194, 219);
+}
+
+.education {
+    background-color: rgba(223, 223, 223, 0.35);
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.skills {
+    background-color: rgba(223, 223, 223, 0.35);
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(46, 46, 46);
+}
+
+.logo-rs {
+    transition: 1s;
+}
+
+.logo-rs:hover {
+    z-index: 10;
+    transform: scale(1.2);
+}
+
+.logo-github {
+    transition: 1s;
+}
+
+.logo-github:hover {
+    z-index: 10;
+    transform: scale(1.2);
+}
